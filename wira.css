@@ -15,6 +15,9 @@ html, body{
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+*{
+    color: white;
+}
 /*Background gradient color presets, you can apply the presets for buttons, body, div,...*/
 /*Some presets made with refer from uigradients.com*/
 .background--cold{
@@ -38,7 +41,7 @@ html, body{
 .background--red-wine{
     background: linear-gradient(to right, #ed213a, #93291e);
 }
-.bacground--6am{
+.background--6am{
     background: linear-gradient(to right, #005aa7, #fffde4);
 }
 .background--summer{
@@ -66,7 +69,7 @@ html, body{
     background: linear-gradient(to right, #5a3f37, #2c7744);
 }
 .background--girls-and-boys{
-    background: linear-gradient(to right, #5a3f37, #2c7744);
+    background: linear-gradient(to right, #fc00ff, #00dbde);
 }
 /*End of background presets*/
 .container--big{
@@ -84,8 +87,10 @@ html, body{
     border-radius: 10px;
     font-size: 1.25em;
     color: white;
-    padding-left: 5px;
-    padding-right: 5px; 
+    margin: 5px 5px;
+}
+.btns:hover{
+    cursor: pointer;
 }
 .btns--large{
     width: 16%;
