@@ -88,6 +88,7 @@ html, body{
     font-size: 1.25em;
     color: white;
     margin: 5px 5px;
+    user-select: none;
 }
 .btns:hover{
     cursor: pointer;
