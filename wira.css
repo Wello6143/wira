@@ -6,20 +6,9 @@
     2018
     v.1
 */
-html, body{
-    height: 100%;
-    width: 100%;
-    margin: 0 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-*{
-    color: white;
-}
 /*Background gradient color presets, you can apply the presets for buttons, body, div,...*/
 /*Some presets made with refer from uigradients.com*/
+/*Slice of life*/
 .background--cold{
     background: linear-gradient(to right, #006699, #00d77d);
 }
@@ -70,4 +59,13 @@ html, body{
 }
 .background--girls-and-boys{
     background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+.background--matcha{
+    background: linear-gradient(to right, #d8fd47, #24fe41);
+}
+.background--candyland{
+    background: linear-gradient(to right, #d3959b, #bfe6ba);
+}
+.background--cherry-blossom{
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
 }
